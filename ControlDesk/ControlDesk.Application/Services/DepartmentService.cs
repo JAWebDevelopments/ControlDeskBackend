@@ -7,6 +7,12 @@ namespace ControlDesk.Application.Services
 {
     public class DepartmentService(IDepartmentRepository repository, IUnitOfWork unitOfWork)
     {
+        /// <summary>
+        /// Servicio para crear departamento
+        /// </summary>
+        /// <param name="dto"></param>
+        /// <returns></returns>
+        /// <exception cref="GenericException"></exception>
         public async Task<int> CreateAsync(DepartmentDto dto)
         {
             try
@@ -27,23 +33,22 @@ namespace ControlDesk.Application.Services
             }
         }
 
+        /// <summary>
+        /// Servicio para obtener los departamentos
+        /// </summary>
+        /// <returns></returns>
         public async Task<List<Department>> GetAllAsync() => await repository.GetAllAsync();
 
+        /// <summary>
+        /// Servicio para actualizar departamento
+        /// </summary>
+        /// <param name="departmentObject"></param>
+        /// <returns></returns>
+        /// <exception cref="GenericException"></exception>
         public bool Update(Department? departmentObject)
         {
             try
             {
-                /*Ticket ticket = new()
-                {
-                    Title = dto.Title,
-                    Description = dto.Description,
-                    State = dto.State,
-                    Priority = dto.Priority,
-                    CreatedDate = dto.CreatedDate,
-                    UserIdCreated = dto.UserIdCreated,
-                    UserIdAssigned = dto.UserIdAssigned
-                };*/
-
                 if (departmentObject != null)
                 {
                     repository.Update(departmentObject);
@@ -61,6 +66,12 @@ namespace ControlDesk.Application.Services
             }
         }
 
+        /// <summary>
+        /// Servicio para eliminar departamento
+        /// </summary>
+        /// <param name="departmentObject"></param>
+        /// <returns></returns>
+        /// <exception cref="GenericException"></exception>
         public bool Delete(Department? departmentObject)
         {
             try

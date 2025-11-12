@@ -5,17 +5,25 @@ namespace ControlDesk.Application.Services
 {
     public class AuthService(IAuthService authService)
     {
-        public string GenerateToken(DateTime fechaActual, string username, TimeSpan tiempoValidez)
+        /// <summary>
+        /// Servicio para obtener el token
+        /// </summary>
+        /// <param name="currentDate"></param>
+        /// <param name="username"></param>
+        /// <param name="validTime"></param>
+        /// <returns></returns>
+        /// <exception cref="GenericException"></exception>
+        public string GenerateToken(DateTime currentDate, string username, TimeSpan validTime)
         {
 			try
 			{
-                return authService.GenerateToken(fechaActual, username, tiempoValidez);
+                return authService.GenerateToken(currentDate, username, validTime);
 
             }
 			catch (GenericException ex)
 			{
 
-				throw new GenericException("Exception", ex);
+				throw new GenericException("Exception: ", ex);
 			}
         }
     }

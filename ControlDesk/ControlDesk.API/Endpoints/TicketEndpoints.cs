@@ -2,8 +2,6 @@
 using ControlDesk.Application.Services;
 using ControlDesk.Domain.Common;
 using ControlDesk.Domain.Entities;
-using DocumentFormat.OpenXml.Spreadsheet;
-using Microsoft.AspNetCore.Mvc;
 
 namespace ControlDesk.API.Endpoints;
 
@@ -19,7 +17,7 @@ public static class TicketEndpoints
 
         app.MapGet(Domain.Common.Endpoints.apiTickets, async ([AsParameters] PaginationFilter filter, TicketService service) =>
         {
-            List<Ticket> ticketsTotal = await service.GetAllPagAsync(filter);
+            List<ResultTicketQuery> ticketsTotal = await service.GetAllPagAsync(filter);
             int totalRecords = ticketsTotal.Count;
             int totalPages = (int)Math.Ceiling((double)totalRecords / filter.PageSize);
 
@@ -42,7 +40,7 @@ public static class TicketEndpoints
             return match is not null ? Results.Ok(match) : Results.NotFound(Constants.messageTicketNotFound);
         }).WithSummary(Constants.docGetByIdTickets);
 
-        app.MapPut(Domain.Common.Endpoints.apiTickets + "/{id}", async (int id, CreateTicketDto dto, TicketService service) =>
+        app.MapPut(Domain.Common.Endpoints.apiTickets + "/{id}", async (int id, UpdateTicketDto dto, TicketService service) =>
         {
             List<Ticket>? tickets = await service.GetAllAsync();
             Ticket? result = tickets.FirstOrDefault(c => c.TicketId == id);
@@ -51,10 +49,10 @@ public static class TicketEndpoints
             {
                 result.Title = result.Title == dto.Title ? result.Title : dto.Title;
                 result.Description = result.Description == dto.Description ? result.Description : dto.Description;
-                result.State = result.State == dto.State ? result.State : dto.State;
+                result.IsOpen = result.IsOpen == dto.State ? result.IsOpen : dto.State;
                 result.UserIdAssigned = result.UserIdAssigned == dto.UserIdAssigned ? result.UserIdAssigned : dto.UserIdAssigned;
-                result.ModifiedDate = DateTime.Now;
                 result.UserIdUpdate = result.UserIdUpdate == dto.UserIdUpdate ? result.UserIdUpdate : dto.UserIdUpdate;
+                result.ModifiedDate = DateTime.Now;
 
                 bool resultUpdate = service.Update(result);
 

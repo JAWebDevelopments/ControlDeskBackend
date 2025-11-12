@@ -4,30 +4,32 @@ namespace ControlDesk.Application.DTOs
 {
     public class CreateTicketDto
     {
+
+        public CreateTicketDto(string title, string description, int userIdCreated, int userIdAssigned, int userIdUpdate)
+        {
+            Title = title;
+            Description = description;
+            UserIdCreated = userIdCreated;
+            UserIdAssigned = userIdAssigned;
+            UserIdUpdate = userIdUpdate;
+        }
+
         [Required(ErrorMessage = "El campo {0} es obligatorio y no puede estar vacío")]
         [Display(Name = "Titulo Ticket")]
-        public required string Title { get; set; }
+        public string Title { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es obligatorio y no puede estar vacío")]
         [Display(Name = "Descripción")]
-        public required string Description { get; set; }
-
-        [Required(ErrorMessage = "El campo {0} es obligatorio y no puede estar vacío")]
-        [Display(Name = "Estado")]
-        public required int State { get; set; }
-
-        [Required(ErrorMessage = "El campo {0} es obligatorio y no puede estar vacío")]
-        [Display(Name = "Fecha de creación")]
-        public required DateTime CreatedDate { get; set; }
+        public  string Description { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es obligatorio y no puede estar vacío")]
         [Display(Name = "Id Usuario de creación")]
-        public required int UserIdCreated { get; set; }
+        public int UserIdCreated { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es obligatorio y no puede estar vacío")]
         [Display(Name = "Id Usuario de asignación")]
-        public required int UserIdAssigned { get; set; }
+        public int UserIdAssigned { get; set; }
 
-        public required int UserIdUpdate { get; set; }
+        public int UserIdUpdate { get; set; }
     }
 }

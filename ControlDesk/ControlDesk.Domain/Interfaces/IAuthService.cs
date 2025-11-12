@@ -3,6 +3,13 @@ namespace ControlDesk.Domain.Interfaces
 {
     public interface IAuthService
     {
-        string GenerateToken(DateTime fechaActual, string username, TimeSpan tiempoValidez);
+        /// <summary>
+        /// interface para Obtener un token
+        /// </summary>
+        /// <param name="currentDate"></param>
+        /// <param name="username"></param>
+        /// <param name="validTime"></param>
+        /// <returns></returns>
+        string GenerateToken(DateTime currentDate, string username, TimeSpan validTime);
     }
 }
