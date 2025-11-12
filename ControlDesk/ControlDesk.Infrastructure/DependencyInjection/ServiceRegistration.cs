@@ -21,12 +21,14 @@ namespace ControlDesk.Infrastructure.DependencyInjection
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IDepartmentRepository, DepartmentRepository>();
             services.AddScoped<IRoleRepository, RoleRepository>();
+            services.AddScoped<IAuthService, AuthRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<TicketService>();
             services.AddScoped<SecurityService>();
             services.AddScoped<RoleService>();
             services.AddScoped<UserService>();
             services.AddScoped<DepartmentService>();
+            services.AddScoped<AuthService>();
 
             return services;
         }

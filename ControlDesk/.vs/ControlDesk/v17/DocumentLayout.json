@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BDF5D22-18F4-41C9-BA2B-779B90FC84AD}|ControlDesk.Application\\ControlDesk.Application.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\controldesk.application\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BDF5D22-18F4-41C9-BA2B-779B90FC84AD}|ControlDesk.Application\\ControlDesk.Application.csproj|solutionrelative:controldesk.application\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DACA8289-42E4-4E97-875D-92ED1187C31C}|ControlDesk.Domain\\ControlDesk.Domain.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\controldesk.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DACA8289-42E4-4E97-875D-92ED1187C31C}|ControlDesk.Domain\\ControlDesk.Domain.csproj|solutionrelative:controldesk.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BDF5D22-18F4-41C9-BA2B-779B90FC84AD}|ControlDesk.Application\\ControlDesk.Application.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\controldesk.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BDF5D22-18F4-41C9-BA2B-779B90FC84AD}|ControlDesk.Application\\ControlDesk.Application.csproj|solutionrelative:controldesk.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03B363D2-DD3D-4792-A414-2D223D41C453}|ControlDesk.API\\ControlDesk.API.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\controldesk.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{03B363D2-DD3D-4792-A414-2D223D41C453}|ControlDesk.API\\ControlDesk.API.csproj|solutionrelative:controldesk.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03B363D2-DD3D-4792-A414-2D223D41C453}|ControlDesk.API\\ControlDesk.API.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\controldesk.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03B363D2-DD3D-4792-A414-2D223D41C453}|ControlDesk.API\\ControlDesk.API.csproj|solutionrelative:controldesk.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03B363D2-DD3D-4792-A414-2D223D41C453}|ControlDesk.API\\ControlDesk.API.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\controldesk.api\\endpoints\\userendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03B363D2-DD3D-4792-A414-2D223D41C453}|ControlDesk.API\\ControlDesk.API.csproj|solutionrelative:controldesk.api\\endpoints\\userendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BDF5D22-18F4-41C9-BA2B-779B90FC84AD}|ControlDesk.Application\\ControlDesk.Application.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\controldesk.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BDF5D22-18F4-41C9-BA2B-779B90FC84AD}|ControlDesk.Application\\ControlDesk.Application.csproj|solutionrelative:controldesk.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03B363D2-DD3D-4792-A414-2D223D41C453}|ControlDesk.API\\ControlDesk.API.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\controldesk.api\\endpoints\\securityendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03B363D2-DD3D-4792-A414-2D223D41C453}|ControlDesk.API\\ControlDesk.API.csproj|solutionrelative:controldesk.api\\endpoints\\securityendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03B363D2-DD3D-4792-A414-2D223D41C453}|ControlDesk.API\\ControlDesk.API.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\controldesk.api\\endpoints\\ticketendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03B363D2-DD3D-4792-A414-2D223D41C453}|ControlDesk.API\\ControlDesk.API.csproj|solutionrelative:controldesk.api\\endpoints\\ticketendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B03C1C4-CC61-423F-BCDE-CB44A5BD1CF0}|ControlDesk.Infrastructure\\ControlDesk.Infrastructure.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\controldesk.infrastructure\\dependencyinjection\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B03C1C4-CC61-423F-BCDE-CB44A5BD1CF0}|ControlDesk.Infrastructure\\ControlDesk.Infrastructure.csproj|solutionrelative:controldesk.infrastructure\\dependencyinjection\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BDF5D22-18F4-41C9-BA2B-779B90FC84AD}|ControlDesk.Application\\ControlDesk.Application.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\controldesk.application\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BDF5D22-18F4-41C9-BA2B-779B90FC84AD}|ControlDesk.Application\\ControlDesk.Application.csproj|solutionrelative:controldesk.application\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BDF5D22-18F4-41C9-BA2B-779B90FC84AD}|ControlDesk.Application\\ControlDesk.Application.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\controldesk.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BDF5D22-18F4-41C9-BA2B-779B90FC84AD}|ControlDesk.Application\\ControlDesk.Application.csproj|solutionrelative:controldesk.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B03C1C4-CC61-423F-BCDE-CB44A5BD1CF0}|ControlDesk.Infrastructure\\ControlDesk.Infrastructure.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\controldesk.infrastructure\\repositories\\securityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B03C1C4-CC61-423F-BCDE-CB44A5BD1CF0}|ControlDesk.Infrastructure\\ControlDesk.Infrastructure.csproj|solutionrelative:controldesk.infrastructure\\repositories\\securityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B03C1C4-CC61-423F-BCDE-CB44A5BD1CF0}|ControlDesk.Infrastructure\\ControlDesk.Infrastructure.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\controldesk.infrastructure\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B03C1C4-CC61-423F-BCDE-CB44A5BD1CF0}|ControlDesk.Infrastructure\\ControlDesk.Infrastructure.csproj|solutionrelative:controldesk.infrastructure\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DACA8289-42E4-4E97-875D-92ED1187C31C}|ControlDesk.Domain\\ControlDesk.Domain.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\controldesk.domain\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DACA8289-42E4-4E97-875D-92ED1187C31C}|ControlDesk.Domain\\ControlDesk.Domain.csproj|solutionrelative:controldesk.domain\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +50,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DepartmentDto.cs",
-              "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Application\\DTOs\\DepartmentDto.cs",
-              "RelativeDocumentMoniker": "ControlDesk.Application\\DTOs\\DepartmentDto.cs",
-              "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Application\\DTOs\\DepartmentDto.cs",
-              "RelativeToolTip": "ControlDesk.Application\\DTOs\\DepartmentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T05:05:20.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Application\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "ControlDesk.Application\\Services\\UserService.cs",
-              "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Application\\Services\\UserService.cs",
-              "RelativeToolTip": "ControlDesk.Application\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T05:03:41.28Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.API\\appsettings.json",
+              "RelativeDocumentMoniker": "ControlDesk.API\\appsettings.json",
+              "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.API\\appsettings.json",
+              "RelativeToolTip": "ControlDesk.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-12T06:38:28.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Application\\DTOs\\UserDto.cs",
-              "RelativeDocumentMoniker": "ControlDesk.Application\\DTOs\\UserDto.cs",
-              "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Application\\DTOs\\UserDto.cs",
-              "RelativeToolTip": "ControlDesk.Application\\DTOs\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T04:52:43.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "UserEndpoint.cs",
               "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.API\\Endpoints\\UserEndpoint.cs",
               "RelativeDocumentMoniker": "ControlDesk.API\\Endpoints\\UserEndpoint.cs",
               "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.API\\Endpoints\\UserEndpoint.cs",
               "RelativeToolTip": "ControlDesk.API\\Endpoints\\UserEndpoint.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T04:22:09.715Z",
+              "WhenOpened": "2025-11-12T06:00:44.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "ControlDesk.Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "ControlDesk.Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T05:55:48.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Infrastructure\\Repositories\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "ControlDesk.Infrastructure\\Repositories\\AuthRepository.cs",
+              "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Infrastructure\\Repositories\\AuthRepository.cs",
+              "RelativeToolTip": "ControlDesk.Infrastructure\\Repositories\\AuthRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T05:48:13.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SecurityRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Infrastructure\\Repositories\\SecurityRepository.cs",
+              "RelativeDocumentMoniker": "ControlDesk.Infrastructure\\Repositories\\SecurityRepository.cs",
+              "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Infrastructure\\Repositories\\SecurityRepository.cs",
+              "RelativeToolTip": "ControlDesk.Infrastructure\\Repositories\\SecurityRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T05:46:32.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TicketEndpoints.cs",
-              "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.API\\Endpoints\\TicketEndpoints.cs",
-              "RelativeDocumentMoniker": "ControlDesk.API\\Endpoints\\TicketEndpoints.cs",
-              "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.API\\Endpoints\\TicketEndpoints.cs",
-              "RelativeToolTip": "ControlDesk.API\\Endpoints\\TicketEndpoints.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAswGAAAAAKAAAAAAAAAA==",
+              "Title": "SecurityEndpoint.cs",
+              "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.API\\Endpoints\\SecurityEndpoint.cs",
+              "RelativeDocumentMoniker": "ControlDesk.API\\Endpoints\\SecurityEndpoint.cs",
+              "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.API\\Endpoints\\SecurityEndpoint.cs",
+              "RelativeToolTip": "ControlDesk.API\\Endpoints\\SecurityEndpoint.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T01:32:01.741Z",
+              "WhenOpened": "2025-11-12T05:39:41.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "TicketService.cs",
-              "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Application\\Services\\TicketService.cs",
-              "RelativeDocumentMoniker": "ControlDesk.Application\\Services\\TicketService.cs",
-              "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Application\\Services\\TicketService.cs",
-              "RelativeToolTip": "ControlDesk.Application\\Services\\TicketService.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAIwCUAAACVAAAAAAAAAA==",
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Infrastructure\\DependencyInjection\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "ControlDesk.Infrastructure\\DependencyInjection\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Infrastructure\\DependencyInjection\\ServiceRegistration.cs",
+              "RelativeToolTip": "ControlDesk.Infrastructure\\DependencyInjection\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T01:30:30.931Z",
+              "WhenOpened": "2025-11-12T05:38:40.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.API\\Program.cs",
+              "RelativeDocumentMoniker": "ControlDesk.API\\Program.cs",
+              "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.API\\Program.cs",
+              "RelativeToolTip": "ControlDesk.API\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T05:37:33.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "ControlDesk.Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "ControlDesk.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T05:34:47.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Domain\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "ControlDesk.Domain\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Domain\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "ControlDesk.Domain\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T05:34:23.942Z",
               "EditorCaption": ""
             }
           ]

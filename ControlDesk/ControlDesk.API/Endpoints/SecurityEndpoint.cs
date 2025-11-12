@@ -9,13 +9,24 @@ public static class SecurityEndpoint
 {
     public static void MapSecurityEndpoint(this WebApplication app)
     {
-        app.MapPost(Domain.Common.Endpoints.apiLogin, async (LoginDto dto, SecurityService service) =>
+        app.MapPost(Domain.Common.Endpoints.apiLogin, async (LoginDto dto, SecurityService service, AuthService authService) =>
         {
             if (!string.IsNullOrEmpty(dto.UserName) || !string.IsNullOrEmpty(dto.Password))
             {
                 List<User> users = await service.GetAllAsync();
                 var match = users.FirstOrDefault(c => c.Login == dto.UserName && Base64Helper.Decrypt(c.Password) == dto.Password);
-                return match is not null ? Results.Ok(match) : Results.NotFound(Constants.messageSesionUserNotFound);
+
+                var fechaActual = DateTime.UtcNow;
+                var validez = TimeSpan.FromHours(5);
+                var fechaExpiracion = fechaActual.Add(validez);
+
+                var token = authService.GenerateToken(fechaActual, dto.UserName, validez);
+
+                return match is not null ? Results.Ok(new
+                {
+                    Token = token,
+                    ExpireAt = fechaExpiracion
+                }) : Results.NotFound(Constants.messageSesionUserNotFound);
             }
             else
             {
