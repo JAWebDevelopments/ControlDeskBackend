@@ -11,7 +11,7 @@ public static class SwaggerConfiguration
         {
             options.SwaggerDoc("v1", new OpenApiInfo
             {
-                Title = "Ticket API",
+                Title = "Control Desk API",
                 Version = "v1",
                 Description = "API for managing tickets using Clean Architecture"
             });

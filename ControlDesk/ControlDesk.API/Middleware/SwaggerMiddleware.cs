@@ -8,7 +8,7 @@ public static class SwaggerMiddleware
 
         app.UseSwaggerUI(options =>
         {
-            options.SwaggerEndpoint("/swagger/v1/swagger.json", "Company API V1");
+            options.SwaggerEndpoint("/swagger/v1/swagger.json", "Control Desk API V1");
         });
 
         return app;

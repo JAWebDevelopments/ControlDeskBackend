@@ -14,8 +14,6 @@ public partial class ControlDeskContext : DbContext
     {
     }
 
-    public virtual DbSet<Comment> Comments { get; set; }
-
     public virtual DbSet<Department> Departments { get; set; }
 
     public virtual DbSet<Role> Roles { get; set; }
@@ -31,27 +29,6 @@ public partial class ControlDeskContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Comment>(entity =>
-        {
-            entity.ToTable("Comment");
-
-            entity.Property(e => e.CommentId).HasColumnName("CommentID");
-            entity.Property(e => e.CommentText).IsUnicode(false);
-            entity.Property(e => e.CreatedDate).HasColumnType("datetime");
-            entity.Property(e => e.TicketId).HasColumnName("TicketID");
-            entity.Property(e => e.UserId).HasColumnName("UserID");
-
-            entity.HasOne(d => d.Ticket).WithMany(p => p.Comments)
-                .HasForeignKey(d => d.TicketId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Comment_Ticket");
-
-            entity.HasOne(d => d.User).WithMany(p => p.Comments)
-                .HasForeignKey(d => d.UserId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Comment_User");
-        });
-
         modelBuilder.Entity<Department>(entity =>
         {
             entity.ToTable("Department");
@@ -86,6 +63,7 @@ public partial class ControlDeskContext : DbContext
             entity.Property(e => e.Description)
                 .HasMaxLength(250)
                 .IsUnicode(false);
+            entity.Property(e => e.ModifiedDate).HasColumnType("datetime");
             entity.Property(e => e.Title)
                 .HasMaxLength(50)
                 .IsUnicode(false);
@@ -117,7 +95,7 @@ public partial class ControlDeskContext : DbContext
                 .IsUnicode(false);
             entity.Property(e => e.ModifiedDate).HasColumnType("datetime");
             entity.Property(e => e.Password)
-                .HasMaxLength(10)
+                .HasMaxLength(50)
                 .IsUnicode(false);
             entity.Property(e => e.RoleId).HasColumnName("RoleID");
 

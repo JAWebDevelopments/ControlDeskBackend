@@ -13,15 +13,15 @@ public partial class Ticket
 
     public int State { get; set; }
 
-    public int Priority { get; set; }
-
     public DateTime CreatedDate { get; set; }
 
     public int UserIdCreated { get; set; }
 
     public int UserIdAssigned { get; set; }
 
-    public virtual ICollection<Comment> Comments { get; set; } = new List<Comment>();
+    public int? UserIdUpdate { get; set; }
+
+    public DateTime? ModifiedDate { get; set; }
 
     public virtual User UserIdCreatedNavigation { get; set; } = null!;
 }

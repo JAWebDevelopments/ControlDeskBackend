@@ -25,12 +25,15 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
+app.MapSecurityEndpoint();
 app.MapTicketEndpoints();
-app.MapSecurity();
+app.MapUserEndpoints();
+app.MapRoleEndpoints();
+app.MapDepartmentEndpoints();
+
 app.UseHttpsRedirection();
 
 //app.UseAuthorization();
-
 //app.MapControllers();
 
 app.Run();
