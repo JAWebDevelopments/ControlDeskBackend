@@ -8,6 +8,12 @@ namespace ControlDesk.Application.Services
 {
     public class UserService(IUserRepository repository, IUnitOfWork unitOfWork)
     {
+        /// <summary>
+        /// Servicio para crear usuarios
+        /// </summary>
+        /// <param name="userDto"></param>
+        /// <returns></returns>
+        /// <exception cref="GenericException"></exception>
         public async Task<int> CreateAsync(UserDto userDto)
         {
             try
@@ -34,8 +40,18 @@ namespace ControlDesk.Application.Services
             }
         }
 
+        /// <summary>
+        /// Servicio para obtener usuarios
+        /// </summary>
+        /// <returns></returns>
         public async Task<List<User>> GetAllAsync() => await repository.GetAllAsync();
 
+        /// <summary>
+        /// Servicio para actualizar usuarios
+        /// </summary>
+        /// <param name="userObject"></param>
+        /// <returns></returns>
+        /// <exception cref="GenericException"></exception>
         public bool Update(User? userObject)
         {
             try
@@ -57,6 +73,12 @@ namespace ControlDesk.Application.Services
             }
         }
 
+        /// <summary>
+        /// Servicio para eliminar usuarios
+        /// </summary>
+        /// <param name="userObject"></param>
+        /// <returns></returns>
+        /// <exception cref="GenericException"></exception>
         public bool Delete(User? userObject)
         {
             try

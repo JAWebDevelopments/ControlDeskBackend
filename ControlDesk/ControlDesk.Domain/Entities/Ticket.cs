@@ -11,7 +11,7 @@ public partial class Ticket
 
     public string Description { get; set; } = null!;
 
-    public int State { get; set; }
+    public int IsOpen { get; set; }
 
     public DateTime CreatedDate { get; set; }
 

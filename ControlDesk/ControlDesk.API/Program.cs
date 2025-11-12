@@ -1,12 +1,9 @@
 using ControlDesk.API.Configurations;
 using ControlDesk.API.Endpoints;
 using ControlDesk.API.Middleware;
+using ControlDesk.Application.DTOs;
 using ControlDesk.Infrastructure.DependencyInjection;
-using DocumentFormat.OpenXml.Bibliography;
-using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
@@ -21,6 +18,7 @@ builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerDocumentation();
 builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.Configure<TokenDto>(builder.Configuration.GetSection("AuthenticationSettings"));
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         .AddJwtBearer(options =>
         {
@@ -62,7 +60,6 @@ builder.Services.AddSwaggerGen(c =>
             }
         });
 });
-
 
 var app = builder.Build();
 app.UseSwagger();

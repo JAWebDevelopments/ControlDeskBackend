@@ -7,6 +7,12 @@ namespace ControlDesk.Application.Services
 {
     public class RoleService(IRoleRepository repository, IUnitOfWork unitOfWork)
     {
+        /// <summary>
+        /// Servicio para crear roles
+        /// </summary>
+        /// <param name="dto"></param>
+        /// <returns></returns>
+        /// <exception cref="GenericException"></exception>
         public async Task<int> CreateAsync(RoleDto dto)
         {
             try
@@ -26,23 +32,22 @@ namespace ControlDesk.Application.Services
             }
         }
 
+        /// <summary>
+        /// Servicio para obtener roles
+        /// </summary>
+        /// <returns></returns>
         public async Task<List<Role>> GetAllAsync() => await repository.GetAllAsync();
 
+        /// <summary>
+        /// Servicio para actualizar roles
+        /// </summary>
+        /// <param name="roleObject"></param>
+        /// <returns></returns>
+        /// <exception cref="GenericException"></exception>
         public bool Update(Role? roleObject)
         {
             try
             {
-                /*Ticket ticket = new()
-                {
-                    Title = dto.Title,
-                    Description = dto.Description,
-                    State = dto.State,
-                    Priority = dto.Priority,
-                    CreatedDate = dto.CreatedDate,
-                    UserIdCreated = dto.UserIdCreated,
-                    UserIdAssigned = dto.UserIdAssigned
-                };*/
-
                 if (roleObject != null)
                 {
                     repository.Update(roleObject);
@@ -60,6 +65,12 @@ namespace ControlDesk.Application.Services
             }
         }
 
+        /// <summary>
+        /// Servicio para eliminar roles
+        /// </summary>
+        /// <param name="roleObject"></param>
+        /// <returns></returns>
+        /// <exception cref="GenericException"></exception>
         public bool Delete(Role? roleObject)
         {
             try

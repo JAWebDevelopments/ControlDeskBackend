@@ -1,6 +1,7 @@
 ﻿using ControlDesk.Application.DTOs;
 using ControlDesk.Domain.Common;
 using ControlDesk.Domain.Entities;
+using ControlDesk.Domain.Enums;
 using ControlDesk.Domain.Exceptions;
 using ControlDesk.Domain.Interfaces;
 
@@ -8,6 +9,12 @@ namespace ControlDesk.Application.Services
 {
     public class TicketService(ITicketRepository repository, IUnitOfWork unitOfWork)
     {
+        /// <summary>
+        /// Servicio para crear ticket
+        /// </summary>
+        /// <param name="dto"></param>
+        /// <returns></returns>
+        /// <exception cref="GenericException"></exception>
         public async Task<int> CreateAsync(CreateTicketDto dto)
         {
             try
@@ -16,7 +23,7 @@ namespace ControlDesk.Application.Services
                 {
                     Title = dto.Title,
                     Description = dto.Description,
-                    State = dto.State,
+                    IsOpen = (int)StateTicket.IsOpen,
                     CreatedDate = DateTime.Now,
                     UserIdCreated = dto.UserIdCreated,
                     UserIdAssigned = dto.UserIdAssigned,
@@ -33,25 +40,29 @@ namespace ControlDesk.Application.Services
             }
         }
 
+        /// <summary>
+        /// servicio para obtener todos los tickets
+        /// </summary>
+        /// <returns></returns>
         public async Task<List<Ticket>> GetAllAsync() => await repository.GetAllAsync();
 
-        public async Task<List<Ticket>> GetAllPagAsync(PaginationFilter filter) => await repository.GetAllPagAsync(filter.PageNumber, filter.PageSize);
+        /// <summary>
+        /// servicio para obtener todos los tickets de forma paginada
+        /// </summary>
+        /// <param name="filter"></param>
+        /// <returns></returns>
+        public async Task<List<ResultTicketQuery>> GetAllPagAsync(PaginationFilter filter) => await repository.GetAllPagAsync(filter.PageNumber, filter.PageSize);
 
+        /// <summary>
+        /// Servicio para actualizar datos de un ticket
+        /// </summary>
+        /// <param name="ticketObject"></param>
+        /// <returns></returns>
+        /// <exception cref="GenericException"></exception>
         public bool Update(Ticket? ticketObject)
         {
             try
             {
-                /*Ticket ticket = new()
-                {
-                    Title = dto.Title,
-                    Description = dto.Description,
-                    State = dto.State,
-                    Priority = dto.Priority,
-                    CreatedDate = dto.CreatedDate,
-                    UserIdCreated = dto.UserIdCreated,
-                    UserIdAssigned = dto.UserIdAssigned
-                };*/
-
                 if (ticketObject != null)
                 {
                     repository.Update(ticketObject);
@@ -69,6 +80,12 @@ namespace ControlDesk.Application.Services
             }
         }
 
+        /// <summary>
+        /// Servicio para eliminar un ticket
+        /// </summary>
+        /// <param name="ticketObject"></param>
+        /// <returns></returns>
+        /// <exception cref="GenericException"></exception>
         public bool Delete(Ticket? ticketObject)
         {
             try
