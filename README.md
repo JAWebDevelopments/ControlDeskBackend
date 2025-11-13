@@ -531,13 +531,13 @@ TIPO: DELETE
 
 "Usuario fue eliminado correctamente"
 
-## ⚡ Ticekts
+## ⚡ Tickets
 
 ### Estado de tickets
 
-1 = Abierto - 2 = Cerrado - Si se intenta guardar otro valor, no actualiza el estado ni ningun otro dato debido a excepcion de base de datos.
+1 = Abierto - 2 = Cerrado - Si se intenta guardar otro valor, no actualiza el estado ni ningun otro dato debido a excepcion controlada de base de datos.
 
-1. Crear Ticekts
+1. Crear Tickets
 
 . request
 
@@ -563,7 +563,7 @@ JSON:
   "id": 36
 }
 
-2. Listar Ticekts de forma paginada
+2. Listar Tickets de forma paginada
 
 . request
 
@@ -646,7 +646,7 @@ TIPO: GET
 }
 ```
 
-3. Consulta Ticekts por Id
+3. Consulta Tickets por Id
 
 . request
 
@@ -671,7 +671,7 @@ TIPO: GET
 }
 ```
 
-4. Actualizar Ticekts
+4. Actualizar Tickets
 
 . request
 
@@ -696,7 +696,7 @@ JSON:
 
 "Ticket fue actualizado correctamente"
 
-5. Eliminar Ticekts
+5. Eliminar Tickets
 
 . request
 
@@ -710,7 +710,7 @@ TIPO: DELETE
 
 ## ☕ Login
 
-1. Realizar login con el dato en login y password original (sin encriptar). Esto retorna un token.
+1. Realizar login con el dato de login y password original (sin encriptar). Esto retorna un token.
 
 . request
 
