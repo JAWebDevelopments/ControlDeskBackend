@@ -25,11 +25,12 @@ namespace ControlDesk.Infrastructure.Repositories
                             TicketID = t.TicketId,
                             Title = t.Title,
                             Description = t.Description,
-                            IsOpen = t.IsOpen == (int)StateTicket.IsOpen ? "Abierto" : "Cerrado",
+                            IsOpen = t.IsOpen == 1 ? "Abierto" : "Cerrado",
                             FirstName = u.FirstName,
                             LastName = u.LastName,
                             Email = u.Email,
                             RoleName = r.RoleName,
+                            DepartmentName = d.DepartmentName,
                             CreatedDate = t.CreatedDate
                         })
                         .Skip((pageNumber - 1) * pageSize)

@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{298FFCE5-AE6F-4A8C-9733-D530EB88AD4C}|TicketManagment.Test\\TicketManagment.Test.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\ticketmanagment.test\\unit\\services\\ticketservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{298FFCE5-AE6F-4A8C-9733-D530EB88AD4C}|TicketManagment.Test\\TicketManagment.Test.csproj|solutionrelative:ticketmanagment.test\\unit\\services\\ticketservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DACA8289-42E4-4E97-875D-92ED1187C31C}|ControlDesk.Domain\\ControlDesk.Domain.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\controldesk.domain\\entities\\resultticketquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DACA8289-42E4-4E97-875D-92ED1187C31C}|ControlDesk.Domain\\ControlDesk.Domain.csproj|solutionrelative:controldesk.domain\\entities\\resultticketquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5BDF5D22-18F4-41C9-BA2B-779B90FC84AD}|ControlDesk.Application\\ControlDesk.Application.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\controldesk.application\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BDF5D22-18F4-41C9-BA2B-779B90FC84AD}|ControlDesk.Application\\ControlDesk.Application.csproj|solutionrelative:controldesk.application\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,16 +15,8 @@
       "RelativeMoniker": "D:0:0:{03B363D2-DD3D-4792-A414-2D223D41C453}|ControlDesk.API\\ControlDesk.API.csproj|solutionrelative:controldesk.api\\endpoints\\ticketendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DACA8289-42E4-4E97-875D-92ED1187C31C}|ControlDesk.Domain\\ControlDesk.Domain.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\controldesk.domain\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DACA8289-42E4-4E97-875D-92ED1187C31C}|ControlDesk.Domain\\ControlDesk.Domain.csproj|solutionrelative:controldesk.domain\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{03B363D2-DD3D-4792-A414-2D223D41C453}|ControlDesk.API\\ControlDesk.API.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\controldesk.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{03B363D2-DD3D-4792-A414-2D223D41C453}|ControlDesk.API\\ControlDesk.API.csproj|solutionrelative:controldesk.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BDF5D22-18F4-41C9-BA2B-779B90FC84AD}|ControlDesk.Application\\ControlDesk.Application.csproj|c:\\proyectos\\personalgithub\\controldeskbackend\\controldesk\\controldesk.application\\dtos\\createticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BDF5D22-18F4-41C9-BA2B-779B90FC84AD}|ControlDesk.Application\\ControlDesk.Application.csproj|solutionrelative:controldesk.application\\dtos\\createticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,108 +26,56 @@
       "DocumentGroups": [
         {
           "DockedHeight": 251,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ResultTicketQuery.cs",
-              "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Domain\\Entities\\ResultTicketQuery.cs",
-              "RelativeDocumentMoniker": "ControlDesk.Domain\\Entities\\ResultTicketQuery.cs",
-              "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Domain\\Entities\\ResultTicketQuery.cs",
-              "RelativeToolTip": "ControlDesk.Domain\\Entities\\ResultTicketQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T23:01:11.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TicketServiceTest.cs",
-              "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\TicketManagment.Test\\Unit\\Services\\TicketServiceTest.cs",
-              "RelativeDocumentMoniker": "TicketManagment.Test\\Unit\\Services\\TicketServiceTest.cs",
-              "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\TicketManagment.Test\\Unit\\Services\\TicketServiceTest.cs",
-              "RelativeToolTip": "TicketManagment.Test\\Unit\\Services\\TicketServiceTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T20:54:56.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CreateTicketDto.cs",
-              "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Application\\DTOs\\CreateTicketDto.cs",
-              "RelativeDocumentMoniker": "ControlDesk.Application\\DTOs\\CreateTicketDto.cs",
-              "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Application\\DTOs\\CreateTicketDto.cs",
-              "RelativeToolTip": "ControlDesk.Application\\DTOs\\CreateTicketDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T19:44:04.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "TicketEndpoints.cs",
               "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.API\\Endpoints\\TicketEndpoints.cs",
               "RelativeDocumentMoniker": "ControlDesk.API\\Endpoints\\TicketEndpoints.cs",
               "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.API\\Endpoints\\TicketEndpoints.cs",
               "RelativeToolTip": "ControlDesk.API\\Endpoints\\TicketEndpoints.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAvwC8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T19:23:38.476Z",
+              "WhenOpened": "2025-11-13T02:10:20.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TicketRepository.cs",
               "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Infrastructure\\Repositories\\TicketRepository.cs",
               "RelativeDocumentMoniker": "ControlDesk.Infrastructure\\Repositories\\TicketRepository.cs",
               "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Infrastructure\\Repositories\\TicketRepository.cs",
               "RelativeToolTip": "ControlDesk.Infrastructure\\Repositories\\TicketRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAEwDoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T19:23:08.519Z",
+              "WhenOpened": "2025-11-13T02:10:04.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ITicketRepository.cs",
-              "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Domain\\Interfaces\\ITicketRepository.cs",
-              "RelativeDocumentMoniker": "ControlDesk.Domain\\Interfaces\\ITicketRepository.cs",
-              "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Domain\\Interfaces\\ITicketRepository.cs",
-              "RelativeToolTip": "ControlDesk.Domain\\Interfaces\\ITicketRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T19:16:07.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TicketService.cs",
               "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Application\\Services\\TicketService.cs",
               "RelativeDocumentMoniker": "ControlDesk.Application\\Services\\TicketService.cs",
               "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.Application\\Services\\TicketService.cs",
               "RelativeToolTip": "ControlDesk.Application\\Services\\TicketService.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAwwCAAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:24:37.292Z",
+              "WhenOpened": "2025-11-12T23:50:10.27Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.API\\appsettings.json",
               "RelativeDocumentMoniker": "ControlDesk.API\\appsettings.json",
               "ToolTip": "C:\\Proyectos\\personalGitHub\\ControlDeskBackend\\ControlDesk\\ControlDesk.API\\appsettings.json",
               "RelativeToolTip": "ControlDesk.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-11-12T06:38:28.415Z",
               "EditorCaption": ""
